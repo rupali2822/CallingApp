@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsActivity"
+    android:orientation="vertical"
+    android:background="#02B290"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/et_number_of_msgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="how many times:"
+        android:background="@drawable/edit_bg"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="enter your msg here:"
+        android:background="@drawable/edit_bg"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:background="#1FAA59"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
